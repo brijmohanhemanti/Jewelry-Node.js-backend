@@ -77,4 +77,3 @@ const fetchSingleProduct = async (req,res)=>{
 }
 
 module.exports={fetchProduct,createProduct,editProduct,deleteProduct,fetchSingleProduct}
-
