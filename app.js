@@ -9,7 +9,6 @@ app.use(cors({
 
 const productRouter=require("./router/productRouter")
 
-
 app.use(express.json())
 
 app.use("/manohar",productRouter)
